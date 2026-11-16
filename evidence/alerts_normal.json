@@ -1,0 +1,171 @@
+{
+  "alerts": [
+    {
+      "timestamp": "2026-11-16T21:10:18.693509",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.2",
+      "dst_ip": "172.19.0.1",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (80, 79)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.696974",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (80, 79)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.697173",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.2",
+      "dst_ip": "172.19.0.1",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.707532",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.707758",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.2",
+      "dst_ip": "172.19.0.1",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.708000",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.708859",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.2",
+      "dst_ip": "172.19.0.1",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (80, 79)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.709123",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (80, 79)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.712081",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.2",
+      "dst_ip": "172.19.0.1",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.712265",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.712424",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.2",
+      "dst_ip": "172.19.0.1",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.712658",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.713805",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.2",
+      "dst_ip": "172.19.0.1",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (80, 79)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.723579",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (80, 79)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.723767",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.2",
+      "dst_ip": "172.19.0.1",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.723882",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.724268",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.2",
+      "dst_ip": "172.19.0.1",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    },
+    {
+      "timestamp": "2026-11-16T21:10:18.724490",
+      "severity": "medium",
+      "category": "malformed_ipp_version",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "TCP",
+      "detail": "Unexpected IPP version (72, 84)"
+    }
+  ],
+  "stats": {
+    "udp_packets_seen": 1,
+    "tcp_packets_seen": 57,
+    "malformed_ipp_version": 18
+  }
+}
