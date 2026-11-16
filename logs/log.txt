@@ -1,0 +1,54 @@
+─$ sudo docker logs cve-2024-47177-cups-1 --tail 50
+Mon Nov 16 18:50:59 2026 140471024931776 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov 16 18:50:59 2026 140471024931776 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov 16 18:50:59 2026 140471024931776 Matching printer "Printer_172_19_0_1" with properties Host = "172.19.0.1", Port = 12345, Service Name = "Printer @ 172.19.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov 16 18:50:59 2026 140471024931776 All BrowseFilter lines matched or skipped, accepting printer Printer_172_19_0_1
+Mon Nov 16 18:50:59 2026 140471024931776 update_netifs() in THREAD 140471024931776
+Mon Nov 16 18:50:59 2026 140471024931776 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.19.0.2, 338f12723e43, 172.19.0.2*), lo (::1)
+Mon Nov 16 18:50:59 2026 140471024931776 Entry for Printer_172_19_0_1 (URI: ipp://172.19.0.1:12345/printers/EVILPRINTER) already exists.
+Mon Nov 16 18:50:59 2026 140471024931776 Staying with previously discovered entry for this printer.
+Mon Nov 16 18:50:59 2026 140471024931776 DNS-SD IDs: Service name: "Printer @ 172.19.0.1", Service type: "", Domain: ""
+Mon Nov 16 18:50:59 2026 140471024931776 checking queues in 0s
+Mon Nov 16 18:50:59 2026 140471024931776 process_browse_data() in THREAD 140471024931776
+Mon Nov 16 18:50:59 2026 140471024931776 browse packet received from 172.19.0.1
+Mon Nov 16 18:50:59 2026 140471024931776 incorrect browse packet format
+Mon Nov 16 18:50:59 2026 140471024931776 process_browse_data() in THREAD 140471024931776
+Mon Nov 16 18:50:59 2026 140471024931776 browse packet received from 172.19.0.1
+Mon Nov 16 18:50:59 2026 140471024931776 process_browse_data: location: |Fake Office|
+Mon Nov 16 18:50:59 2026 140471024931776 process_browse_data: info: |Printer|
+Mon Nov 16 18:50:59 2026 140471024931776 Don't understand URI: http://AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Mon Nov 16 18:50:59 2026 140471024931776 checking queues in 0s
+Mon Nov 16 18:50:59 2026 140471024931776 process_browse_data() in THREAD 140471024931776
+Mon Nov 16 18:50:59 2026 140471024931776 browse packet received from 172.19.0.1
+Mon Nov 16 18:50:59 2026 140471024931776 process_browse_data: location: |Fake Office|
+Mon Nov 16 18:50:59 2026 140471024931776 process_browse_data: info: |Printer|
+Mon Nov 16 18:50:59 2026 140471024931776 CUPS browsing: Remote host: 172.19.0.1; Port: 12345; Remote queue name: EVILPRINTER; Service Name: Printer @ 172.19.0.1
+Mon Nov 16 18:50:59 2026 140471024931776 Found CUPS queue/class: EVILPRINTER on host 172.19.0.1.
+Mon Nov 16 18:50:59 2026 140471024931776 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+Mon Nov 16 18:50:59 2026 140471024931776 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+Mon Nov 16 18:50:59 2026 140471024931776 Matching printer "Printer_172_19_0_1" with properties Host = "172.19.0.1", Port = 12345, Service Name = "Printer @ 172.19.0.1", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+Mon Nov 16 18:50:59 2026 140471024931776 All BrowseFilter lines matched or skipped, accepting printer Printer_172_19_0_1
+Mon Nov 16 18:50:59 2026 140471024931776 update_netifs() in THREAD 140471024931776
+Mon Nov 16 18:50:59 2026 140471024931776 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.19.0.2, 338f12723e43, 172.19.0.2*), lo (::1)
+Mon Nov 16 18:50:59 2026 140471024931776 Entry for Printer_172_19_0_1 (URI: ipp://172.19.0.1:12345/printers/EVILPRINTER) already exists.
+Mon Nov 16 18:50:59 2026 140471024931776 Staying with previously discovered entry for this printer.
+Mon Nov 16 18:50:59 2026 140471024931776 DNS-SD IDs: Service name: "Printer @ 172.19.0.1", Service type: "", Domain: ""
+Mon Nov 16 18:50:59 2026 140471024931776 checking queues in 0s
+Mon Nov 16 18:50:59 2026 140471024931776 update_cups_queues() in THREAD 140471057057248
+Mon Nov 16 18:50:59 2026 140471024931776 Processing printer list ...
+Mon Nov 16 18:50:59 2026 140471024931776 === Remote printer overview ===
+Mon Nov 16 18:50:59 2026 140471024931776 Printer ipp://172.19.0.1:12345/printers/EVILPRINTER (172.19.0.1, IP not determined): Local queue Printer_172_19_0_1, Remote CUPS Printer, Slave of None (To be created/updated)
+Mon Nov 16 18:50:59 2026 140471024931776 ===============================
+Mon Nov 16 18:50:59 2026 140471024931776 === Remote printer overview ===
+Mon Nov 16 18:50:59 2026 140471024931776 Printer ipp://172.19.0.1:12345/printers/EVILPRINTER (172.19.0.1, IP not determined): Local queue Printer_172_19_0_1, Remote CUPS Printer, Slave of None (To be created/updated)
+Mon Nov 16 18:50:59 2026 140471024931776 ===============================
+Mon Nov 16 18:50:59 2026 140471024931776 listening
+Mon Nov 16 18:50:59 2026 140471008118464 create_queue() in THREAD 140471008118464
+Mon Nov 16 18:50:59 2026 140471008118464 Creating/Updating CUPS queue Printer_172_19_0_1
+Mon Nov 16 18:50:59 2026 140471008118464 Our new queue overwrites the possibly temporary CUPS queue Printer_172_19_0_1, so we need to assure the queue gets permanent.
+Mon Nov 16 18:50:59 2026 140471008118464 Setting printer-is-shared bit to make this queue permanent.
+Mon Nov 16 18:50:59 2026 140471008118464 Removing the possibly temporary CUPS queue.
+Mon Nov 16 18:50:59 2026 140471008118464 Temporary queue has still jobs or CUPS error, retrying later.
+                                                                  
+┌──(anders㉿kali)-[~/vulhub/cups-browsed/CVE-2024-47177/evil-ipp-server]
+└─$ 
