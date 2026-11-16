@@ -1,0 +1,165 @@
+{
+  "alerts": [
+    {
+      "timestamp": "2026-11-16T21:02:26.934734",
+      "severity": "high",
+      "category": "unauthorized_advertisement",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Printer advertised by unauthorized host: http://172.19.0.1:12345/printers/EVILPRINTER"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.934987",
+      "severity": "high",
+      "category": "unauthorized_advertisement",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Printer advertised by unauthorized host: http://172.19.0.1:12345/printers/EVILPRINTER"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.935166",
+      "severity": "medium",
+      "category": "malformed_state",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Invalid state field 'ZZ'"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.935209",
+      "severity": "high",
+      "category": "unauthorized_advertisement",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Printer advertised by unauthorized host: http://172.19.0.1:12345/printers/EVILPRINTER"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.935364",
+      "severity": "medium",
+      "category": "malformed_state",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Invalid state field 'ZZ'"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.935420",
+      "severity": "high",
+      "category": "unauthorized_advertisement",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Printer advertised by unauthorized host: http://172.19.0.1:12345/printers/EVILPRINTER"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.935652",
+      "severity": "medium",
+      "category": "oversized_packet",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Packet length 1520 exceeds max 1500"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.935722",
+      "severity": "high",
+      "category": "unauthorized_advertisement",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Printer advertised by unauthorized host: http://AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.935973",
+      "severity": "medium",
+      "category": "oversized_packet",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Packet length 1520 exceeds max 1500"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.936016",
+      "severity": "high",
+      "category": "discovery_flood",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "6 UDP packets in 10s"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.936075",
+      "severity": "high",
+      "category": "unauthorized_advertisement",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Printer advertised by unauthorized host: http://AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.936355",
+      "severity": "high",
+      "category": "discovery_flood",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "7 UDP packets in 10s"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.936405",
+      "severity": "medium",
+      "category": "malformed_uri_scheme",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Unexpected URI scheme in 'ftp://172.19.0.1:12345/printers/EVILPRINTER'"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.936437",
+      "severity": "high",
+      "category": "unauthorized_advertisement",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Printer advertised by unauthorized host: ftp://172.19.0.1:12345/printers/EVILPRINTER"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.936605",
+      "severity": "high",
+      "category": "discovery_flood",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "8 UDP packets in 10s"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.936762",
+      "severity": "medium",
+      "category": "malformed_uri_scheme",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Unexpected URI scheme in 'ftp://172.19.0.1:12345/printers/EVILPRINTER'"
+    },
+    {
+      "timestamp": "2026-11-16T21:02:26.936811",
+      "severity": "high",
+      "category": "unauthorized_advertisement",
+      "src_ip": "172.19.0.1",
+      "dst_ip": "172.19.0.2",
+      "protocol": "UDP",
+      "detail": "Printer advertised by unauthorized host: ftp://172.19.0.1:12345/printers/EVILPRINTER"
+    }
+  ],
+  "stats": {
+    "udp_packets_seen": 8,
+    "unauthorized_advertisement": 8,
+    "malformed_state": 2,
+    "oversized_packet": 2,
+    "discovery_flood": 3,
+    "malformed_uri_scheme": 2
+  }
+}
