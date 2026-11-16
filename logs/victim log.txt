@@ -50,5 +50,3 @@ Mon Nov 16 18:50:59 2026 140471008118464 Setting printer-is-shared bit to make t
 Mon Nov 16 18:50:59 2026 140471008118464 Removing the possibly temporary CUPS queue.
 Mon Nov 16 18:50:59 2026 140471008118464 Temporary queue has still jobs or CUPS error, retrying later.
                                                                   
-┌──(anders㉿kali)-[~/vulhub/cups-browsed/CVE-2024-47177/evil-ipp-server]
-└─$ 
